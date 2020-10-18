@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d94ca4-d665-429a-8003-3f585b9f8792" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +46,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Users\omara\WebstormProjects\mycl\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.storybook">
@@ -80,11 +89,33 @@
       <option name="presentableId" value="Default" />
       <updated>1603051596803</updated>
       <workItem from="1603051599325" duration="330000" />
-      <workItem from="1603052142790" duration="297000" />
+      <workItem from="1603052142790" duration="586000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603052692156">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052692156" />
+    <state width="960" height="307" key="GridCell.Tab.0.bottom" timestamp="1603052671703">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="960" height="307" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
+    <state width="960" height="307" key="GridCell.Tab.0.center" timestamp="1603052671703">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="960" height="307" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
+    <state width="960" height="307" key="GridCell.Tab.0.left" timestamp="1603052671703">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="960" height="307" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
+    <state width="960" height="307" key="GridCell.Tab.0.right" timestamp="1603052671703">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="960" height="307" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
   </component>
 </project>
