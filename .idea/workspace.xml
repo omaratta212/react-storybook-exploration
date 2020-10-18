@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d94ca4-d665-429a-8003-3f585b9f8792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/ButtonProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="1-btn-component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +37,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="starter" />
-                    <option name="lastUsedInstant" value="1603052823" />
+                    <option name="lastUsedInstant" value="1603054974" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="1-btn-component" />
+                    <option name="lastUsedInstant" value="1603054835" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -110,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.storybook" />
       </list>
@@ -127,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603051596803</updated>
       <workItem from="1603051599325" duration="330000" />
-      <workItem from="1603052142790" duration="2526000" />
+      <workItem from="1603052142790" duration="2808000" />
     </task>
     <servers />
   </component>
@@ -143,22 +141,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052692156" />
-    <state width="960" height="307" key="GridCell.Tab.0.bottom" timestamp="1603052671703">
+    <state width="960" height="307" key="GridCell.Tab.0.bottom" timestamp="1603054722763">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
-    <state width="960" height="307" key="GridCell.Tab.0.center" timestamp="1603052671703">
+    <state width="960" height="307" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603054722763" />
+    <state width="960" height="307" key="GridCell.Tab.0.center" timestamp="1603054722762">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
-    <state width="960" height="307" key="GridCell.Tab.0.left" timestamp="1603052671703">
+    <state width="960" height="307" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603054722762" />
+    <state width="960" height="307" key="GridCell.Tab.0.left" timestamp="1603054722762">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
-    <state width="960" height="307" key="GridCell.Tab.0.right" timestamp="1603052671703">
+    <state width="960" height="307" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603054722762" />
+    <state width="960" height="307" key="GridCell.Tab.0.right" timestamp="1603054722762">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
+    <state width="960" height="307" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603054722762" />
     <state x="668" y="228" width="583" height="624" key="find.popup" timestamp="1603054306417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
