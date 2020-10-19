@@ -36,7 +36,7 @@ with unique URLs which is great for review and testing.
 
 ## Loading
 <Canvas>
-  <Story name="Primary loading" args={Button.defaultProps}>
+  <Story name="Primary loading" args={{...Button.defaultProps, type: ButtonType.secondary, loading: true}}>
     {args => <Button {...args} />}
   </Story>
   <Story name="Secondary loading" args={{...Button.defaultProps, type: ButtonType.secondary, loading: true}}>
