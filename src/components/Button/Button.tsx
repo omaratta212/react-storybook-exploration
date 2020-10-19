@@ -1,5 +1,5 @@
 import React from "react";
-import {ButtonProps} from "./ButtonProps";
+import {ButtonProps, ButtonSize, ButtonType} from "./ButtonProps";
 import styles from './Button.module.scss';
 import {Loading} from "../icons/Loading";
 
@@ -19,3 +19,11 @@ export const Button: React.FC<ButtonProps> = (props) => {
     </button>
   )
 }
+
+Button.defaultProps = {
+  text: "Click Me",
+  type: ButtonType.primary,
+  size: ButtonSize.large,
+  disabled: false,
+  loading: false
+};
