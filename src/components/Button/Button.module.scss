@@ -1,3 +1,74 @@
-.btn{
-  background: red;
+// @import Should be in a global.css file
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+$primary_color: #5F2EEA;
+$primary_dark: #2A00A2;
+$primary_light: #5F2EEA;
+$white: #F7F7FC;
+$grey: #D6D8E7;
+
+.btn {
+  // Text
+  font-family: Poppins, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.75rem;
+
+  // Feel
+  border-radius: 40px;
+  border: 0;
+
+  // Spacing
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  padding: .6rem 2.2rem;
+
+  /* Color variants */
+  &.primary {
+    background: $primary_color;
+    color: $white;
+  }
+
+  &.secondary {
+    background: $white;
+    color: $primary_color;
+    border: 2px solid $primary_color;
+  }
+
+  &.outlined {
+    background: #FFFFFF;
+    color: $primary_color;
+    border: 2px solid $grey;
+  }
+
+  &.text {
+    color: $primary_color;
+    background: transparent;
+    padding: 0;
+  }
+
+  /* Size variants */
+  &.small {
+    padding: .2rem .7rem;
+    font-size: 0.875rem;
+  }
+
+  &.medium {
+    padding: .6rem 2.2rem;
+    font-size: 1rem;
+  }
+
+  &.large {
+    padding: 1rem 2.8rem;
+    font-size: 1rem;
+  }
+
+  &.icon {
+    padding: .6rem 2.2rem;
+
+  }
 }

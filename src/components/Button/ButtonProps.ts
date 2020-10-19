@@ -1,15 +1,15 @@
-enum ButtonType {
-  primary,
-  secondary,
-  outlined,
-  text,
-  icon
+export enum ButtonType {
+  primary = 'primary',
+  secondary = 'secondary',
+  outlined = 'outlined',
+  text = 'text'
 }
 
-enum ButtonSize {
-  small,
-  medium,
-  large
+export enum ButtonSize {
+  small = 'small',
+  medium = 'medium',
+  large = 'large',
+  icon = 'icon'
 }
 
 export interface ButtonProps {

@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d94ca4-d665-429a-8003-3f585b9f8792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/ButtonProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/ButtonProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/ButtonProps.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="starter" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,8 +39,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1-btn-component" />
+                    <option name="lastUsedInstant" value="1603055164" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="starter" />
-                    <option name="lastUsedInstant" value="1603052823" />
+                    <option name="lastUsedInstant" value="1603055122" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -87,7 +86,13 @@
     <property name="ts.external.directory.path" value="C:\Users\omara\WebstormProjects\mycl\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.storybook">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omara\WebstormProjects\mycl\src" />
+      <recent name="C:\Users\omara\WebstormProjects\mycl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -112,6 +117,9 @@
       <list>
         <item itemvalue="npm.start" />
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +136,7 @@
       <updated>1603051596803</updated>
       <workItem from="1603051599325" duration="330000" />
       <workItem from="1603052142790" duration="2526000" />
+      <workItem from="1603113049084" duration="3274000" />
     </task>
     <servers />
   </component>
@@ -139,30 +148,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="678" y="163" key="#TypeScript/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603053299986" />
-    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603052692156">
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603055652790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052692156" />
-    <state width="960" height="307" key="GridCell.Tab.0.bottom" timestamp="1603052671703">
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603055652790" />
+    <state width="1920" height="404" key="GridCell.Tab.0.bottom" timestamp="1603113805568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
-    <state width="960" height="307" key="GridCell.Tab.0.center" timestamp="1603052671703">
+    <state width="1920" height="404" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
+    <state width="1920" height="404" key="GridCell.Tab.0.center" timestamp="1603113805568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
-    <state width="960" height="307" key="GridCell.Tab.0.left" timestamp="1603052671703">
+    <state width="1920" height="404" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
+    <state width="1920" height="404" key="GridCell.Tab.0.left" timestamp="1603113805568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
-    <state width="960" height="307" key="GridCell.Tab.0.right" timestamp="1603052671703">
+    <state width="1920" height="404" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
+    <state width="1920" height="404" key="GridCell.Tab.0.right" timestamp="1603113805568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="307" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603052671703" />
+    <state width="1920" height="404" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
     <state x="668" y="228" width="583" height="624" key="find.popup" timestamp="1603054306417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="668" y="228" width="583" height="624" key="find.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603054306417" />
+    <state x="624" y="254" key="run.anything.popup" timestamp="1603116207104">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="624" y="254" key="run.anything.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603116207104" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603054311022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
