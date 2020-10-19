@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d94ca4-d665-429a-8003-3f585b9f8792" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/Button/button.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button/button.stories.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

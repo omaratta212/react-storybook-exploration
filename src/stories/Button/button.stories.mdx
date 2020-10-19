@@ -52,7 +52,7 @@ with unique URLs which is great for review and testing.
 
 ## Disabled
 <Canvas>
-  <Story name="Primary disabled" args={Button.defaultProps, disabled: trueg}>
+  <Story name="Primary disabled" args={{...Button.defaultProps, type: ButtonType.secondary, disabled: true}}>
     {args => <Button {...args} />}
   </Story>
   <Story name="Secondary disabled" args={{...Button.defaultProps, type: ButtonType.secondary, disabled: true}}>
