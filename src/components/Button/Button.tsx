@@ -10,7 +10,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
   return (
     <button
       className={classNames}
-      disabled={!!props.disabled}
+      disabled={Boolean(props.disabled)}
     >
       {
         props.loading
