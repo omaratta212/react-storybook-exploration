@@ -14,6 +14,8 @@ export enum ButtonSize {
 
 export interface ButtonProps {
   text: string,
+  disabled?: Boolean,
+  loading?: Boolean,
   type: ButtonType,
   size: ButtonSize
 }

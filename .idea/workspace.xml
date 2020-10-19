@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d94ca4-d665-429a-8003-3f585b9f8792" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/icons/Loading.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
@@ -24,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="starter" />
+        <entry key="$PROJECT_DIR$" value="1-btn-component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +39,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="2-bnt-states" />
+                    <option name="lastUsedInstant" value="1603117301" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="1-btn-component" />
                     <option name="lastUsedInstant" value="1603055164" />
@@ -77,8 +82,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -136,7 +144,7 @@
       <updated>1603051596803</updated>
       <workItem from="1603051599325" duration="330000" />
       <workItem from="1603052142790" duration="2526000" />
-      <workItem from="1603113049084" duration="3274000" />
+      <workItem from="1603113049084" duration="6787000" />
     </task>
     <servers />
   </component>
@@ -144,6 +152,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="824" y="418" key="#ESLint" timestamp="1603118999758">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="824" y="418" key="#ESLint/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603118999758" />
     <state x="678" y="163" key="#TypeScript" timestamp="1603053299986">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -152,26 +164,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603055652790" />
-    <state width="1920" height="404" key="GridCell.Tab.0.bottom" timestamp="1603113805568">
+    <state width="960" height="211" key="GridCell.Tab.0.bottom" timestamp="1603119146293">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="404" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
-    <state width="1920" height="404" key="GridCell.Tab.0.center" timestamp="1603113805568">
+    <state width="960" height="211" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603119146293" />
+    <state width="960" height="211" key="GridCell.Tab.0.center" timestamp="1603119146292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="404" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
-    <state width="1920" height="404" key="GridCell.Tab.0.left" timestamp="1603113805568">
+    <state width="960" height="211" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603119146292" />
+    <state width="960" height="211" key="GridCell.Tab.0.left" timestamp="1603119146292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="404" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
-    <state width="1920" height="404" key="GridCell.Tab.0.right" timestamp="1603113805568">
+    <state width="960" height="211" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603119146292" />
+    <state width="960" height="211" key="GridCell.Tab.0.right" timestamp="1603119146292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="404" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603113805568" />
-    <state x="668" y="228" width="583" height="624" key="find.popup" timestamp="1603054306417">
+    <state width="960" height="211" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603119146292" />
+    <state x="668" y="228" width="583" height="624" key="find.popup" timestamp="1603118784312">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="668" y="228" width="583" height="624" key="find.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603054306417" />
+    <state x="668" y="228" width="583" height="624" key="find.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603118784312" />
     <state x="624" y="254" key="run.anything.popup" timestamp="1603116207104">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

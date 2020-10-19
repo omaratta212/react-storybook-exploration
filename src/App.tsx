@@ -5,7 +5,7 @@ import { ButtonSize, ButtonType } from "./components/Button/ButtonProps";
 function App() {
   return (
     <Fragment>
-      <div style={{display: "flex", width: "50%", justifyContent: "space-evenly"}}>
+      <div style={{display: "flex", width: "50%"}}>
         <Button
           size={ButtonSize.large}
           type={ButtonType.primary}
@@ -28,7 +28,7 @@ function App() {
         />
       </div>
 
-      <div style={{display: "flex", width: "50%", justifyContent: "space-between", marginTop: "50px"}}>
+      <div style={{display: "flex", width: "50%",  marginTop: "50px"}}>
         <Button
           size={ButtonSize.medium}
           type={ButtonType.primary}
@@ -51,7 +51,7 @@ function App() {
         />
       </div>
 
-      <div style={{display: "flex", width: "50%", justifyContent: "space-between", marginTop: "50px"}}>
+      <div style={{display: "flex", width: "50%",  marginTop: "50px"}}>
         <Button
           size={ButtonSize.small}
           type={ButtonType.primary}
