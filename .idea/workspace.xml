@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d94ca4-d665-429a-8003-3f585b9f8792" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button/button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1-btn-component" />
+        <entry key="$PROJECT_DIR$" value="2-btn-states" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,8 +36,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="2-bnt-states" />
-                    <option name="lastUsedInstant" value="1603117301" />
+                    <option name="branchName" value="3-btn-basic-story" />
+                    <option name="lastUsedInstant" value="1603121689" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="1-btn-component" />
@@ -95,7 +96,7 @@
       <recent name="C:\Users\omara\WebstormProjects\mycl" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.storybook">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.storybook" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
@@ -141,10 +142,22 @@
       <workItem from="1603052142790" duration="2526000" />
       <workItem from="1603113049084" duration="7892000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Button default props">
+      <created>1603122483485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603122483485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Button default props" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Button default props" />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="418" key="#ESLint" timestamp="1603118999758">
@@ -159,22 +172,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603055652790" />
-    <state width="960" height="166" key="GridCell.Tab.0.bottom" timestamp="1603121530773">
+    <state x="583" y="20" key="CommitChangelistDialog2" timestamp="1603122482654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="166" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603121530773" />
-    <state width="960" height="166" key="GridCell.Tab.0.center" timestamp="1603121530773">
+    <state x="583" y="20" key="CommitChangelistDialog2/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603122482654" />
+    <state width="1920" height="166" key="GridCell.Tab.0.bottom" timestamp="1603122560223">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="166" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603121530773" />
-    <state width="960" height="166" key="GridCell.Tab.0.left" timestamp="1603121530773">
+    <state width="1920" height="166" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603122560223" />
+    <state width="1920" height="166" key="GridCell.Tab.0.center" timestamp="1603122560223">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="166" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603121530773" />
-    <state width="960" height="166" key="GridCell.Tab.0.right" timestamp="1603121530773">
+    <state width="1920" height="166" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603122560223" />
+    <state width="1920" height="166" key="GridCell.Tab.0.left" timestamp="1603122560223">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="960" height="166" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603121530773" />
+    <state width="1920" height="166" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603122560223" />
+    <state width="1920" height="166" key="GridCell.Tab.0.right" timestamp="1603122560223">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="166" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603122560223" />
     <state x="668" y="228" width="583" height="624" key="find.popup" timestamp="1603118784312">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -187,5 +204,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603120763925" />
+    <state x="682" y="444" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603121652521">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="682" y="444" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603121652521" />
   </component>
 </project>
