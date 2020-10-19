@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d94ca4-d665-429a-8003-3f585b9f8792" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stories/Button/button.stories.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/Button/button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button/button.stories.tsx" afterDir="false" />
     </list>
@@ -21,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2-btn-states" />
+        <entry key="$PROJECT_DIR$" value="3-btn-basic-story" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +36,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="4-btn-mdx-story" />
+                    <option name="lastUsedInstant" value="1603130579" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="3-btn-basic-story" />
                     <option name="lastUsedInstant" value="1603121689" />
@@ -176,30 +181,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="583" y="20" key="CommitChangelistDialog2/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603122482654" />
-    <state width="1294" height="293" key="GridCell.Tab.0.bottom" timestamp="1603130398747">
+    <state width="1920" height="114" key="GridCell.Tab.0.bottom" timestamp="1603133732443">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="293" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603130398747" />
-    <state width="1294" height="293" key="GridCell.Tab.0.center" timestamp="1603130398747">
+    <state width="1920" height="114" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603133732443" />
+    <state width="1920" height="114" key="GridCell.Tab.0.center" timestamp="1603133732443">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="293" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603130398747" />
-    <state width="1294" height="293" key="GridCell.Tab.0.left" timestamp="1603130398747">
+    <state width="1920" height="114" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603133732443" />
+    <state width="1920" height="114" key="GridCell.Tab.0.left" timestamp="1603133732442">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="293" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603130398747" />
-    <state width="1294" height="293" key="GridCell.Tab.0.right" timestamp="1603130398747">
+    <state width="1920" height="114" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603133732442" />
+    <state width="1920" height="114" key="GridCell.Tab.0.right" timestamp="1603133732443">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="293" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603130398747" />
+    <state width="1920" height="114" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603133732443" />
     <state x="668" y="228" width="583" height="624" key="find.popup" timestamp="1603118784312">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="668" y="228" width="583" height="624" key="find.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603118784312" />
-    <state x="624" y="254" key="run.anything.popup" timestamp="1603130034683">
+    <state x="624" y="254" key="run.anything.popup" timestamp="1603131601947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="624" y="254" key="run.anything.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603130034683" />
+    <state x="624" y="254" key="run.anything.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603131601947" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603120763925">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

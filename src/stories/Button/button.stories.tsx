@@ -4,7 +4,7 @@ import {ButtonProps, ButtonSize, ButtonType} from "../../components/Button/Butto
 import {Story} from '@storybook/react/types-6-0';
 
 export default {
-  title: 'Button Component',
+  title: 'OLD basic Button Component',
   component: Button,
 };
 
