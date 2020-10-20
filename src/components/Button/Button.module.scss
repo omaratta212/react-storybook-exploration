@@ -1,0 +1,153 @@
+// @import Should be in a global.css file
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+// Colors
+$primary_color: #5F2EEA;
+$primary_dark: #2A00A2;
+$primary_light: #5F2EEA;
+$white: #F7F7FC;
+$grey: #D6D8E7;
+$disabled: #ae95f3;
+
+// Fonts
+
+// Borders
+$base_border_radius: 50px;
+$outline_border: 8px;
+
+.btn {
+  // Text
+  font-family: Poppins, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.75rem;
+
+  // Feel
+  border-radius: $base_border_radius;
+  border: 0;
+  outline: none;
+
+  // Spacing
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  padding: .6rem 2.2rem;
+
+  /* Color variants */
+  &.primary {
+    background: $primary_color;
+    color: $white;
+
+    &:hover {
+      background: $primary_dark;
+    }
+
+    &:focus {
+      border: $outline_border solid $grey;
+      border-radius: $base_border_radius;
+    }
+
+    &:disabled{
+      background: $disabled;
+
+    }
+  }
+
+  &.secondary {
+    background: $white;
+    color: $primary_color;
+    border: 2px solid $primary_color;
+
+    svg circle {
+      stroke: $primary_color;
+    }
+
+    &:hover {
+      border-color: $primary_dark;
+      color: $primary_dark;
+    }
+
+    &:focus {
+      background: $white;
+      border: $outline_border solid $grey;
+      border-radius: $base_border_radius;
+    }
+
+    &:disabled{
+      border-color: $disabled;
+      color: $disabled;
+    }
+  }
+
+  &.outlined {
+    background: #FFFFFF;
+    color: $primary_color;
+    border: 2px solid $grey;
+
+    svg circle {
+      stroke: $primary_color;
+    }
+
+    &:hover {
+      color: $primary_dark;
+    }
+
+    &:focus {
+      border: $outline_border solid $grey;
+      border-radius: $base_border_radius;
+    }
+
+    &:disabled{
+      color: $disabled;
+      background: $white;
+      border: 2px solid $grey;
+    }
+  }
+
+  &.text {
+    color: $primary_color;
+    background: transparent;
+
+    svg circle {
+      stroke: $primary_color;
+    }
+
+    &:hover {
+      color: $primary_dark;
+    }
+
+    &:focus {
+      background: $grey;
+      border: $outline_border solid $grey;
+      border-radius: $base_border_radius;
+    }
+
+    &:disabled{
+      color: $disabled;
+    }
+  }
+
+  /* Size variants */
+  &.small {
+    padding: .2rem .7rem;
+    font-size: 0.675rem;
+  }
+
+  &.medium {
+    padding: .6rem 2.2rem;
+    font-size: .8rem;
+  }
+
+  &.large {
+    padding: .6rem 2.8rem;
+    font-size: 1rem;
+  }
+
+  &.icon {
+    padding: .6rem 2.2rem;
+
+  }
+}

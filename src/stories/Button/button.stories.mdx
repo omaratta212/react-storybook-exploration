@@ -1,0 +1,67 @@
+import {Meta, Story, Canvas, ArgsTable} from '@storybook/addon-docs/blocks';
+import {Button} from '../../components/Button/Button';
+import {ButtonType} from "../../components/Button/ButtonProps";
+
+<Meta title="Button" component={Button} argTypes={{
+  disabled: {control: {type: 'boolean'}},
+  loading: {control: {type: 'boolean'}}
+}}/>
+
+# Button
+
+Let's define a story for our `Button` component:
+
+We can even preview multiple Stories in a block. This
+gets rendered as a group, but defines individual stories
+with unique URLs which is great for review and testing.
+<Canvas>
+  <Story name="Primary Button" args={Button.defaultProps}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Secondary Button" args={{...Button.defaultProps, type: ButtonType.secondary}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Outline Button" args={{...Button.defaultProps, type: ButtonType.outlined}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Text Button" args={{...Button.defaultProps, type: ButtonType.text}}>
+    {args => <Button {...args} />}
+  </Story>
+</Canvas>
+
+
+## Prop table
+<ArgsTable of={Button} />
+
+
+## Loading
+<Canvas>
+  <Story name="Primary loading" args={{...Button.defaultProps, type: ButtonType.secondary, loading: true}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Secondary loading" args={{...Button.defaultProps, type: ButtonType.secondary, loading: true}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Outline loading" args={{...Button.defaultProps, type: ButtonType.outlined, loading: true}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Text loading" args={{...Button.defaultProps, type: ButtonType.text, loading: true}}>
+    {args => <Button {...args} />}
+  </Story>
+</Canvas>
+
+## Disabled
+<Canvas>
+  <Story name="Primary disabled" args={{...Button.defaultProps, type: ButtonType.secondary, disabled: true}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Secondary disabled" args={{...Button.defaultProps, type: ButtonType.secondary, disabled: true}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Outline disabled" args={{...Button.defaultProps, type: ButtonType.outlined, disabled: true}}>
+    {args => <Button {...args} />}
+  </Story>
+  <Story name="Text disabled" args={{...Button.defaultProps, type: ButtonType.text, disabled: true}}>
+    {args => <Button {...args} />}
+  </Story>
+</Canvas>
