@@ -1,22 +1,79 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import {Button} from "./components/Button/Button";
+import { ButtonSize, ButtonType } from "./components/Button/ButtonProps";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div style={{display: "flex", width: "50%", justifyContent: "space-evenly"}}>
+        <Button
+          size={ButtonSize.large}
+          type={ButtonType.primary}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.large}
+          type={ButtonType.secondary}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.large}
+          type={ButtonType.outlined}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.large}
+          type={ButtonType.text}
+          text={'Button'}
+        />
+      </div>
+
+      <div style={{display: "flex", width: "50%", justifyContent: "space-between", marginTop: "50px"}}>
+        <Button
+          size={ButtonSize.medium}
+          type={ButtonType.primary}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.medium}
+          type={ButtonType.secondary}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.medium}
+          type={ButtonType.outlined}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.medium}
+          type={ButtonType.text}
+          text={'Button'}
+        />
+      </div>
+
+      <div style={{display: "flex", width: "50%", justifyContent: "space-between", marginTop: "50px"}}>
+        <Button
+          size={ButtonSize.small}
+          type={ButtonType.primary}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.small}
+          type={ButtonType.secondary}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.small}
+          type={ButtonType.outlined}
+          text={'Button'}
+        />
+        <Button
+          size={ButtonSize.small}
+          type={ButtonType.text}
+          text={'Button'}
+        />
+      </div>
+    </Fragment>
   );
 }
 
